@@ -1,5 +1,0 @@
-:{$PORT} {
-    @vless path /vless
-    reverse_proxy @vless 127.0.0.1:10000
-    reverse_proxy 127.0.0.1:8000
-}
